@@ -1,0 +1,11 @@
+path:  C:\Users\warzo\OneDrive\Desktop\demo\dataset
+train: C:\Users\warzo\OneDrive\Desktop\demo\dataset\train
+test: C:\Users\warzo\OneDrive\Desktop\demo\dataset\test
+valid: C:\Users\warzo\OneDrive\Desktop\demo\dataset\valid
+
+#Classes
+nc: 3
+
+#classes names
+#replace all class names list with your classes names
+names: ['car', 'motorcycle', 'helmet']
