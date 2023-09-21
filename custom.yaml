@@ -1,11 +1,11 @@
-path:  C:\Users\warzo\OneDrive\Desktop\demo\dataset
-train: C:\Users\warzo\OneDrive\Desktop\demo\dataset\train
-test: C:\Users\warzo\OneDrive\Desktop\demo\dataset\test
-valid: C:\Users\warzo\OneDrive\Desktop\demo\dataset\valid
+path:  path to where your dataset is
+train: path to where your dataset to train is
+test: path to where your dataset to test is
+valid: path to where your dataset to valid is
 
 #Classes
-nc: 3
+nc: 4
 
 #classes names
 #replace all class names list with your classes names
-names: ['car', 'motorcycle', 'helmet']
+names: ['car', 'motorcycle', 'helmet','no helmet']
