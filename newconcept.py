@@ -4,9 +4,9 @@ import os
 
 model = YOLO('yolov8n.pt')
 
-video_path = r'D:\yoloproject\demo.avi'
-output_dir = r'C:\Users\warzo\OneDrive\Desktop\demo\photos'
-max_frames = 100
+video_path = r'path to your input file'
+output_dir = r'path to where the files should be saved'
+max_frames = 100 // to limit the number of photos
 
 
 cap = cv2.VideoCapture(video_path)
